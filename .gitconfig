@@ -1,0 +1,9 @@
+[alias]
+	co = checkout
+	st = status
+	br = branch
+	ll = log --all --decorate --graph --oneline
+	li = log --decorate --graph --oneline
+[core]
+	autocrlf = false
+	editor = nano
