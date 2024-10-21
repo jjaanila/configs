@@ -2,8 +2,11 @@
 	co = checkout
 	st = status
 	br = branch
+	ca = commit --amend
+	cm = commit -m
 	ll = log --all --decorate --graph --oneline
 	li = log --decorate --graph --oneline
+	lsbr = for-each-ref --count=30 --sort=-committerdate refs/heads/ --format='%(refname:short)'
 [core]
-	autocrlf = false
+	autocrlf = true
 	editor = nano
